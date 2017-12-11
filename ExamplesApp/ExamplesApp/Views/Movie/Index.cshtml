@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ExamplesApp.Models.Movie>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Movies</h2>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Movies</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                </tr>
+            }
+    </tbody>
+</table>
