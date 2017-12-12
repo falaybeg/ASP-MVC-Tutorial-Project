@@ -193,3 +193,42 @@ C:\Users\Admin\Desktop\The Complete MVC Exercises\ExamplesApp 2\ExamplesApp\obj\
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ExamplesApp 2\ExamplesApp\obj\Debug\ExamplesApp.Migrations.InitialModel.resources
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ExamplesApp 2\ExamplesApp\obj\Debug\ExamplesApp.csproj.GenerateResource.Cache
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ExamplesApp 2\ExamplesApp\obj\Debug\ExamplesApp.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ApplicationInsights.config
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ExamplesApp.dll.config
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ExamplesApp.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ExamplesApp.pdb
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.InitialModel.resources
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.dll
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.pdb
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.AddMembershipType.resources
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.ApplyAnnotationCustomerName.resources
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.AddIsSubscribedToCustomer1.resources
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.PopulateMembershipTypes.resources

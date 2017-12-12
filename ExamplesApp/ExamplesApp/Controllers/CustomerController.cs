@@ -9,26 +9,36 @@ namespace ExamplesApp.Controllers
 {
     public class CustomerController : Controller
     {
+        private ApplicationDbContext _context;
+        
+        public CustomerController()
+        {
+            // we created object from our database 
+            _context = new ApplicationDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+
         // GET: Customer
         public ActionResult Index()
         {
-            var customer = GetCustomer();
-            return View(customer.ToList());
+            // we got the customer list from the object we created above
+            var customer = _context.Customers.ToList();
+            
+            return View(customer);
         }
 
         public ActionResult Details(int id)
         {
-            var detail = GetCustomer().SingleOrDefault(c => c.Id == id);
-            return View(detail);
-        }
+            var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
 
-        public IEnumerable<Customer> GetCustomer()
-        {
-            return  new List<Customer>()
-            {
-                new Customer {Id=1, Name ="John Smith"},
-                new Customer {Id=2, Name ="Marry Williams"}
-            };
+            if (customer == null)
+                return HttpNotFound();
+            
+            return View(customer);
         }
     }
 }
