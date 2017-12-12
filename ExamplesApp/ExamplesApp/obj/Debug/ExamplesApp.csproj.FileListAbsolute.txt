@@ -220,7 +220,6 @@ C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\Examp
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\vbc.rsp
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\VBCSCompiler.exe
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ExamplesApp.dll.config
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ExamplesApp.dll
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ExamplesApp.pdb
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.InitialModel.resources
@@ -232,3 +231,4 @@ C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\Examp
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.ApplyAnnotationCustomerName.resources
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.AddIsSubscribedToCustomer1.resources
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.PopulateMembershipTypes.resources
+C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ExamplesApp.dll.config
