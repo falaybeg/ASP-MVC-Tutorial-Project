@@ -34,7 +34,8 @@ namespace ExamplesApp.Controllers
 
         public ActionResult Details(int id)
         {
-            var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
+            var customer = _context.Customers.Include(m=>m.MemberShipType).SingleOrDefault(c => c.Id == id);
+
 
             if (customer == null)
                 return HttpNotFound();
