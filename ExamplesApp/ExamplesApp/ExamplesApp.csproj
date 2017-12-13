@@ -232,9 +232,18 @@
     <Compile Include="Migrations\201712131812303_SetBirtdateOfCustomer.Designer.cs">
       <DependentUpon>201712131812303_SetBirtdateOfCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712131828576_AddAdditionalColumToMovies.cs" />
+    <Compile Include="Migrations\201712131828576_AddAdditionalColumToMovies.Designer.cs">
+      <DependentUpon>201712131828576_AddAdditionalColumToMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712131829497_PopulateGenre.cs" />
+    <Compile Include="Migrations\201712131829497_PopulateGenre.Designer.cs">
+      <DependentUpon>201712131829497_PopulateGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MemberShipType.cs" />
@@ -398,8 +407,9 @@
     <Content Include="Views\Movie\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
-    <Content Include="Views\Customer\Detail.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Movie\Detail.cshtml" />
+    <Content Include="Views\Movie\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -446,6 +456,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712131812303_SetBirtdateOfCustomer.resx">
       <DependentUpon>201712131812303_SetBirtdateOfCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712131828576_AddAdditionalColumToMovies.resx">
+      <DependentUpon>201712131828576_AddAdditionalColumToMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712131829497_PopulateGenre.resx">
+      <DependentUpon>201712131829497_PopulateGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
