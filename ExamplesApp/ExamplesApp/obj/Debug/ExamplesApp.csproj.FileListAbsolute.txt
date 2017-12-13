@@ -232,6 +232,5 @@ C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\Examp
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.AddIsSubscribedToCustomer1.resources
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.PopulateMembershipTypes.resources
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\ExamplesApp.dll.config
-C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.MissingMembershipTypes.resources
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.AddNametoMembershipTypes.resources
 C:\Users\Admin\Desktop\The Complete MVC Exercises\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.SetDataOfMembershipTypes.resources
