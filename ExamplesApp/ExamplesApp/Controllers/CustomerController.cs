@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.Entity;
 
 namespace ExamplesApp.Controllers
 {
@@ -26,7 +27,7 @@ namespace ExamplesApp.Controllers
         public ActionResult Index()
         {
             // we got the customer list from the object we created above
-            var customer = _context.Customers.ToList();
+            var customer = _context.Customers.Include(m=>m.MemberShipType).ToList();
             
             return View(customer);
         }

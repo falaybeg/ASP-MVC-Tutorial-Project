@@ -15,7 +15,7 @@ namespace ExamplesApp.Models
         public string Name { get; set; }
         public bool IsSubscribedToNewsLetter { get; set; }
 
-        public MemberShipType MembershipType { get; set; }
+        public MemberShipType MemberShipType { get; set; }
         public byte MembershipTypeId { get; set; }
     }
 } 
