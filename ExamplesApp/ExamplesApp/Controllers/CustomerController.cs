@@ -81,14 +81,13 @@ namespace ExamplesApp.Controllers
 
             };
 
-            return View("CustomerForm",viewModel);
+            return View("New",viewModel);
         }
 
 
         public ActionResult Details(int id)
         {
             var customer = _context.Customers.Include(m=>m.MemberShipType).SingleOrDefault(c => c.Id == id);
-
 
             if (customer == null)
                 return HttpNotFound();
