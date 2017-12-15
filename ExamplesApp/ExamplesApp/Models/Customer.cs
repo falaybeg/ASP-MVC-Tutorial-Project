@@ -14,9 +14,12 @@ namespace ExamplesApp.Models
         [StringLength(255)]
         public string Name { get; set; }
         public bool IsSubscribedToNewsLetter { get; set; }
+        [Display(Name="Date of Birth")]
         public DateTime? Birthdate { get; set; }
 
         public MemberShipType MemberShipType { get; set; }
+
+        [Display(Name="Membership Type")]
         public byte MembershipTypeId { get; set; }
     }
 } 

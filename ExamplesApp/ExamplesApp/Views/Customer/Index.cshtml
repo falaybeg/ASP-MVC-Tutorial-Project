@@ -24,6 +24,8 @@ else
                 <tr>
                     <td>@Html.ActionLink(item.Name, "Details", "Customer", new { id = item.Id }, null)</td>
                      <td>@item.MemberShipType.Name</td>
+                    <td>@Html.ActionLink("Edit", "Edit", "Customer", new { id = item.Id }, new { @class="btn btn-primary" })</td>
+
                 </tr>
             }
     </tbody>
