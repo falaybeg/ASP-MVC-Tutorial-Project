@@ -47,8 +47,20 @@ namespace ExamplesApp.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
+            if(!ModelState.IsValid)
+            {
+                var viewModel = new CustomerFormViewModel
+                {
+                    Customer = customer,
+                    MemberShipType = _context.MemberShipType.ToList()
+                };
+
+                return View("New",viewModel);
+            }
+
             // When we insert a new customer generally Id is zero. Here we checked Id value
             if (customer.Id == 0)
                 _context.Customers.Add(customer);
@@ -84,6 +96,13 @@ namespace ExamplesApp.Controllers
             return View("New",viewModel);
         }
 
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Deneme(int id)
+        {
+            return View();
+        }
 
         public ActionResult Details(int id)
         {

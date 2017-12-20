@@ -41,20 +41,22 @@ namespace ExamplesApp.Controllers
             return View(viewModel);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult AddMovie(Movie movie)
         {
+            if(!ModelState.IsValid)
+            {
+                var viewModel = new MovieFormViewModel(movie)
+                {
+                    Genre = _db.Genre.ToList()
+                };
+
+                return View("New", viewModel);
+            }
             if (movie.Id == 0)
             {
                 movie.AddedDate = DateTime.Now;
                 _db.Movies.Add(movie);
-            }
-            else
-            {
-                var movieInDb = _db.Movies.Single(m => m.Id == movie.Id);
-                movieInDb.Name = movie.Name;
-                movieInDb.GenreId = movie.GenreId;
-                movieInDb.Stock = movie.Stock;
-                movieInDb.ReleaseDate = movie.ReleaseDate;
             }
             _db.SaveChanges();
 
@@ -67,9 +69,8 @@ namespace ExamplesApp.Controllers
             if (movie == null)
                 return HttpNotFound();
 
-            var viewModel = new MovieFormViewModel
+            var viewModel = new MovieFormViewModel(movie)
             {
-                Movie = movie,
                 Genre = _db.Genre.ToList()
             };
 
