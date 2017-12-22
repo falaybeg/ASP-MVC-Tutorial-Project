@@ -284,3 +284,11 @@ C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\Examples
 C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.dll
 C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.pdb
 C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.UpdateDatabase.resources
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\AutoMapper.dll
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\bin\AutoMapper.xml
