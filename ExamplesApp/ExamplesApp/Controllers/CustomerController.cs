@@ -27,10 +27,11 @@ namespace ExamplesApp.Controllers
         // GET: Customer
         public ActionResult Index()
         {
-            // we got the customer list from the object we created above
-            var customer = _context.Customers.Include(m => m.MemberShipType).ToList();
+            // we got the customer list from the object what we created above
 
-            return View(customer);
+           // var customer = _context.Customers.Include(m => m.MemberShipType).ToList();
+
+            return View();
         }
 
         public ActionResult New()
