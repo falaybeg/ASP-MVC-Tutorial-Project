@@ -51,7 +51,7 @@ namespace ExamplesApp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 var viewModel = new CustomerFormViewModel
                 {
@@ -59,13 +59,11 @@ namespace ExamplesApp.Controllers
                     MemberShipType = _context.MemberShipType.ToList()
                 };
 
-                return View("New",viewModel);
+                return View("New", viewModel);
             }
 
-            // When we insert a new customer generally Id is zero. Here we checked Id value
             if (customer.Id == 0)
                 _context.Customers.Add(customer);
-
             else
             {
                 var customerInDb = _context.Customers.Single(c => c.Id == customer.Id);
@@ -73,8 +71,8 @@ namespace ExamplesApp.Controllers
                 customerInDb.Birthdate = customer.Birthdate;
                 customerInDb.MembershipTypeId = customer.MembershipTypeId;
                 customerInDb.IsSubscribedToNewsLetter = customer.IsSubscribedToNewsLetter;
-
             }
+
             _context.SaveChanges();
 
             return RedirectToAction("Index", "Customer");
