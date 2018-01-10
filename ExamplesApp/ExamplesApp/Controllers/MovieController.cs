@@ -24,13 +24,16 @@ namespace ExamplesApp.Controllers
         }
 
         // GET: Movie
-        public ActionResult Index()
+        public ViewResult Index()
         {
-           //var movies = _db.Movies.Include(m => m.Genre).ToList();
-
-            return View();
+            //var movies = _db.Movies.Include(m => m.Genre).ToList();
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("Index");
+            else
+                return View("ReadOnlyList");
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
             var genre = _db.Genre.ToList();

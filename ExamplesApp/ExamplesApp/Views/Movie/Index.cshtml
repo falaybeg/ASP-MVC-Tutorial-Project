@@ -6,6 +6,7 @@
 <h2>Movies</h2>
 
 @Html.ActionLink("New Movie", "New", "Movie", new { @class = "btn btn-primary" })
+
 <br /><br />
 @*
     <table id="movie" class="table table-hover">
@@ -31,27 +32,21 @@
     </table>
 *@
 
-
-<table id="movie" class="table table-bordered table-hover">
+<table id="movies" class="table table-bordered table-hover">
     <thead>
         <tr>
-            <th>Movies</th>
+            <th>Movie</th>
             <th>Genre</th>
-            <th>Action</th>
+            <th>Delete</th>
         </tr>
     </thead>
     <tbody></tbody>
 </table>
-
-
-
-@section scripts {
-    
+@section scripts
+{
     <script>
         $(document).ready(function () {
-
-
-            var table = $("#movie").DataTable({
+            var table = $("#movies").DataTable({
                 ajax: {
                     url: "/api/MovieApi",
                     dataSrc: ""
@@ -69,17 +64,17 @@
                     {
                         data: "id",
                         render: function (data) {
-                            return "<button class='btn btn-danger' id='js-delete' data-movie-id=" + data + ">Delete</button>";
+                            return "<button class='btn btn-danger js-delete' data-movie-id=" + data + ">Delete</button>";
                         }
                     }
                 ]
             });
 
-            $("#movie").on("click", "#js-delete", function () {
 
+            $("#movies").on("click", ".js-delete", function () {
                 var button = $(this);
 
-                bootbox.confirm("Are you sure you want to delete this movie ?", function (result) {
+                bootbox.confirm("Are you sure you want to delete this movie?", function (result) {
                     if (result) {
                         $.ajax({
                             url: "/api/MovieApi/" + button.attr("data-movie-id"),
@@ -92,6 +87,5 @@
                 });
             });
         });
-
     </script>
 }

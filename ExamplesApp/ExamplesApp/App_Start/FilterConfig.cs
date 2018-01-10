@@ -8,6 +8,9 @@ namespace ExamplesApp
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+
+            // we added AuthorizeAttribute to use for all Controller's actions
+            filters.Add(new AuthorizeAttribute());
         }
     }
 }
