@@ -27,6 +27,8 @@ namespace ExamplesApp.Controllers
         public ViewResult Index()
         {
             //var movies = _db.Movies.Include(m => m.Genre).ToList();
+
+            // we checked if user is admin canManageMovies 
             if (User.IsInRole(RoleName.CanManageMovies))
                 return View("Index");
             else
@@ -41,7 +43,7 @@ namespace ExamplesApp.Controllers
             {
                  Genre = genre
             };
-            return View(viewModel);
+            return View("New",viewModel);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]

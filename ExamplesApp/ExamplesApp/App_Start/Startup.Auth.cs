@@ -50,13 +50,14 @@ namespace ExamplesApp
             //    clientId: "",
             //    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            //app.usetwitterauthentication(
+            //   consumerkey: "",
+            //   consumersecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+           // --- we put here facebook appId information ---
+              app.UseFacebookAuthentication(
+                 appId: "14968494",
+                 appSecret: "adsadada");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

@@ -11,6 +11,9 @@ namespace ExamplesApp
 
             // we added AuthorizeAttribute to use for all Controller's actions
             filters.Add(new AuthorizeAttribute());
+
+            // this attribute is for external login (facebook, google, twitter...)
+            filters.Add(new RequireHttpsAttribute());
         }
     }
 }

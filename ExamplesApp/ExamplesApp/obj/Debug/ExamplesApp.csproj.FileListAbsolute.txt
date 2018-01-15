@@ -295,3 +295,5 @@ C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\Examples
 C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.UpdateDatabaseDb.resources
 C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.SeedUsers.resources
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\Admin\Desktop\MVC Project\ASP-MVC-Tutorial-Project\ExamplesApp\ExamplesApp\obj\Debug\ExamplesApp.Migrations.AddPhoneNumberToApplicationUser.resources
