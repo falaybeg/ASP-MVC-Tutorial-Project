@@ -18,7 +18,7 @@ namespace ExamplesApp.Models
         [Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
 
-        public MemberShipType MemberShipType { get; set; }
+        public virtual MemberShipType MemberShipType { get; set; }
 
         [Display(Name="Membership Type")]
         public byte MembershipTypeId { get; set; }

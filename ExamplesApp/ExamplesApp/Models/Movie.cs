@@ -26,5 +26,7 @@ namespace ExamplesApp.Models
         [Display(Name="Genre Type")]
         public int GenreId { get; set; }
 
+        public int NumberAvailable { get; set; }
+
     }
 }

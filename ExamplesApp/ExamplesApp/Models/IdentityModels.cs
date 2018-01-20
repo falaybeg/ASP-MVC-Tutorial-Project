@@ -34,6 +34,9 @@ namespace ExamplesApp.Models
         public DbSet<Movie> Movies { get; set; }
         public DbSet<MemberShipType> MemberShipType  { get; set; }
         public DbSet<Genre> Genre { get; set; }
+        public DbSet<Rental> Rental { get; set; }
+
+        
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

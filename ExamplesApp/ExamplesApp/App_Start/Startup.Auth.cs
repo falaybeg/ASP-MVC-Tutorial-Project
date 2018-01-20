@@ -56,8 +56,8 @@ namespace ExamplesApp
 
            // --- we put here facebook appId information ---
               app.UseFacebookAuthentication(
-                 appId: "14968494",
-                 appSecret: "adsadada");
+                 appId: "426f62526f636b73",
+                 appSecret: "57686f6120447564652c2049495320526f636b73");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

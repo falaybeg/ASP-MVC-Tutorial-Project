@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Data.Entity;
 using ExamplesApp.ViewModel;
+using System.Runtime.Caching;
 
 namespace ExamplesApp.Controllers
 {
@@ -25,11 +26,16 @@ namespace ExamplesApp.Controllers
         }
 
         // GET: Customer
-        public ActionResult Index()
+        public ViewResult Index()
         {
             // we got the customer list from the object what we created above
 
-           // var customer = _context.Customers.Include(m => m.MemberShipType).ToList();
+            // var customer = _context.Customers.Include(m => m.MemberShipType).ToList();
+            if (MemoryCache.Default["Genres"] == null)
+            {
+                MemoryCache.Default["Genres"] = _context.Genre.ToList();
+            }
+            var genres = MemoryCache.Default["Genres"] as IEnumerable<Genre>;
 
             return View();
         }
