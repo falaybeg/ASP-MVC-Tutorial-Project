@@ -1,0 +1,10 @@
+﻿@model ExamplesApp.Models.Movie
+
+<h2>@Model.Name</h2>
+
+<ul>
+    <li><b>Genre:</b>  @Model.Genre.Name</li>
+    <li><b>Release Date:</b>  @Model.ReleaseDate.ToLongDateString()</li>
+    <li><b>Added Date:</b>   @Model.AddedDate.ToLongDateString()</li>
+    <li><b>Number of Stock:</b>   @Model.Stock</li>
+</ul>
